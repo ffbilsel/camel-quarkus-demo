@@ -1,6 +1,8 @@
 dependencies are
-1. a running postgre server (%dev.quarkus.datasource.jdbc.url=jdbc:postgresql://localhost:5432/postgres?currentSchema=public)
-2. kafka and jaeger (cd to kafka-ui file and docker compose the yaml files)
+1. a running postgre server (%dev.quarkus.datasource.jdbc.url=jdbc:postgresql://localhost:5432/postgres?currentSchema=public
+%dev.quarkus.datasource.username=postgres
+%dev.quarkus.datasource.password=123456)
+3. kafka and jaeger (cd to kafka-ui file and docker compose the yaml files)
 
 There are screen-shots showing the issue in the main folder
 
